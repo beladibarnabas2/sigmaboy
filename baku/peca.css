@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-size: 100% auto;
+	line-height:2em;
+}
+
+img
+{
+	border-radius:30px;	
+	box-shadow: 5px 5px 10px 7px rgba(0,0,0,0.7);
+}
+
+#tartalom
+{
+	box-shadow: -5px 5px 10px 7px rgba(0,0,0,0.7);	
+}
+
+h1
+{
+	text-shadow:2px 2px 5px  rgba(0,0,0,0.7);
+	line-height:1.5em;
+}
+
+li
+{
+	list-style-position:inside;
+}
+
+p
+{
+	text-align:justify;
+}
+
+p:first-letter
+{
+	margin-left:20px;
+}
+
+a
+{
+	color:#1c1815;
+	text-decoration:none;
+}
+
+a:hover
+{
+	text-decoration:underline;
+	font-weight:800;
+}
